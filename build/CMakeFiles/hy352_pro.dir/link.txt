@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/hy352_pro.dir/main.cpp.o -o hy352_pro 

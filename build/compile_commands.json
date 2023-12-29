@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/stelios/Desktop/hy352_project/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hy352_pro.dir/main.cpp.o -c /home/stelios/Desktop/hy352_project/main.cpp",
+  "file": "/home/stelios/Desktop/hy352_project/main.cpp"
+}
+]
