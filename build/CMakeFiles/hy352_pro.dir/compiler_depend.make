@@ -3,7 +3,8 @@
 
 CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
-  ../pokemon_characters.h \
+  ../pokemon_game_macros.hpp \
+  ../pokemon.hpp \
   /usr/include/c++/11/iostream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -256,6 +257,8 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/string_view:
 
+/usr/include/c++/11/bits/stl_construct.h:
+
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/ctype.h:
@@ -332,13 +335,27 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
-/usr/include/c++/11/debug/assertions.h:
-
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/exception:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -346,25 +363,19 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/features.h:
 
+../pokemon_game_macros.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/11/bits/char_traits.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
@@ -390,7 +401,17 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
@@ -410,18 +431,6 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
-/usr/include/c++/11/exception:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
 /usr/include/c++/11/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
@@ -434,9 +443,7 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/wchar.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/c++/11/debug/assertions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
@@ -464,17 +471,13 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-../pokemon_characters.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/11/cctype:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/c++/11/bits/localefwd.h:
 
@@ -534,6 +537,8 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/backward/binders.h:
 
+../pokemon.hpp:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
@@ -543,5 +548,3 @@ CMakeFiles/hy352_pro.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
