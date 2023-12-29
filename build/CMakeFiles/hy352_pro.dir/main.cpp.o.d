@@ -1,5 +1,6 @@
 CMakeFiles/hy352_pro.dir/main.cpp.o: \
  /home/stelios/Desktop/hy352_project/main.cpp /usr/include/stdc-predef.h \
+ /home/stelios/Desktop/hy352_project/pokemon_characters.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

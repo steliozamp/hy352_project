@@ -1,5 +1,5 @@
-#include <iostream>
+#include "pokemon_characters.h"
 
-int main(int, char**){
-    std::cout << "Hello, from hy352_pro!\n";
-}
+BEGIN_GAME
+
+END_GAME
